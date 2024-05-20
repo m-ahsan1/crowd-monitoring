@@ -123,7 +123,7 @@ const CrowdStatistics = () => {
               className={`flex flex-col h-[175px] justify-center items-center p-4 rounded-lg ${item.bgColor} text-white hover:border`}
             >
               <h2 className="text-xl font-semibold">{item.title}</h2>
-              <p className="text-3xl font-bold">{item.value}</p>
+              <p className="text-5xl font-bold">{item.value}</p>
               <p className="text-sm">{item.unit}</p>
             </div>
           ))}
