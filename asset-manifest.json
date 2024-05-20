@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/crowd-monitoring/static/css/main.a83f324f.css",
+    "main.js": "/crowd-monitoring/static/js/main.bfdd4f73.js",
+    "static/media/map.png": "/crowd-monitoring/static/media/map.52fd4274f380143d0ff2.png",
+    "static/media/d1.png": "/crowd-monitoring/static/media/d1.ca4761a0dca7e1acd486.png",
+    "static/media/d3.png": "/crowd-monitoring/static/media/d3.d41b3690739597c8d298.png",
+    "static/media/d2.png": "/crowd-monitoring/static/media/d2.577fcaf023e9d38e5ebf.png",
+    "static/media/d7.png": "/crowd-monitoring/static/media/d7.3d3decba8bb557b5a714.png",
+    "static/media/About.png": "/crowd-monitoring/static/media/About.90d2eb15bd53e1ca443f.png",
+    "static/media/d4.png": "/crowd-monitoring/static/media/d4.27f25276290104fdaa30.png",
+    "static/media/d8.png": "/crowd-monitoring/static/media/d8.3cd16b0b988afe5fbdfd.png",
+    "static/media/logo.png": "/crowd-monitoring/static/media/logo.cd7caeda3bda48bcb09f.png",
+    "index.html": "/crowd-monitoring/index.html",
+    "main.a83f324f.css.map": "/crowd-monitoring/static/css/main.a83f324f.css.map",
+    "main.bfdd4f73.js.map": "/crowd-monitoring/static/js/main.bfdd4f73.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a83f324f.css",
+    "static/js/main.bfdd4f73.js"
+  ]
+}
