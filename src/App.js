@@ -2,13 +2,18 @@ import Dashboard from "./Dashboard";
 import Login from "./auth/Login";
 import Register from "./auth/Register";
 import CrowdStatistics from "./CrowdStatistics";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  HashRouter,
+} from "react-router-dom";
 import Airport from "./Airport";
 import Railways from "./Railways";
 import AboutComponent from "./About";
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Dashboard />}></Route>
         <Route path="/crowd-stats" element={<CrowdStatistics />}></Route>
@@ -23,7 +28,7 @@ function App() {
         <Route path="/stadium" element={<Dashboard />}></Route>
         <Route path="/airport" element={<Airport />}></Route>
       </Routes>
-    </Router>
+    </HashRouter>
   );
 }
 
