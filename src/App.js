@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Dashboard from "./Dashboard";
+import Login from "./auth/Login";
+import Register from "./auth/Register";
+import CrowdStatistics from "./CrowdStatistics";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Airport from "./Airport";
+import Railways from "./Railways";
+import AboutComponent from "./About";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Dashboard />}></Route>
+        <Route path="/crowd-stats" element={<CrowdStatistics />}></Route>
+        <Route path="/login" element={<Login />}></Route>
+        <Route path="/register" element={<Register />}></Route>
+        <Route path="/about" element={<AboutComponent />}></Route>
+
+        <Route path="/market" element={<Dashboard />}></Route>
+        <Route path="/supermarket" element={<Dashboard />}></Route>
+        <Route path="/railway-station" element={<Railways />}></Route>
+        <Route path="/malls" element={<Dashboard />}></Route>
+        <Route path="/stadium" element={<Dashboard />}></Route>
+        <Route path="/airport" element={<Airport />}></Route>
+      </Routes>
+    </Router>
   );
 }
 
